@@ -1,12 +1,33 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+  <div id="app">    
+      <HeaderView/>
+    <main>
+      <router-view/>
+
+    </main>
+     <!-- <AppMenu/> -->
+     
+    <FooterView/>
   </div>
 </template>
+
+<script>
+import HeaderView from '@/components/HeaderView.vue'
+import FooterView from '@/components/FooterView.vue'
+
+export default{
+    name:'App',
+    components:{
+        HeaderView,
+        FooterView
+    }
+}
+</script>
+
+<style>
+@import "./assets/static/css/grid-base.css";
+@import "./assets/static/css/home.css";
+</style>
 
 <style>
 #app {
@@ -15,18 +36,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+  margin-top: 60px;
 }
 </style>

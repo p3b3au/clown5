@@ -12,11 +12,11 @@
           :src="require(`@/assets/static/img/${clownPseudo}.jpg`)"
         />
       </div>
-      <div class="cartouche-info">
-        <h3>{{ clownPseudo }}</h3>
+      <div class="cartouche-name">
+        {{ clownPseudo }}
       </div>
-      <div class="cartouche-info">{{ isMan(clownHomme) }}</div>
-      <div class="cartouche-info">{{ isMusician(clownMusicien) }}</div>
+      <div class="cartouche-logos">{{ isMan(clownHomme) }}</div>
+      <div class="cartouche-logos">{{ isMusician(clownMusicien) }}</div>
     </div>
   
 </template>
@@ -79,12 +79,21 @@ export default {
   overflow: hidden;
   width: 200px;
   height: 30px;
+ 
 }
 
-.cartouche-info {
+.cartouche-name {
+   padding: 7px;
+  font-size: 14px;
+  text-align: center;
+  align-content: center;
+}
+
+.cartouche-logos {
   padding: 5px;
   position: relative;
   width: 30%;
+  font-size: 15px;
 }
 
 .img {
