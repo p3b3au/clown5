@@ -1,0 +1,106 @@
+export const clowns = [{
+    "id": 1,
+    "pseudo": "bertille",
+    "actif": true,
+    "homme": false,
+    "musicien": true,
+    "couleur": "#9DC953"
+}, {
+    "id": 2,
+    "pseudo": "diva",
+    "actif": true,
+    "homme": false,
+    "musicien": false,
+    "couleur": "#EBC2E6"
+}, {
+    "id": 3,
+    "pseudo": "frotti",
+    "actif": true,
+    "homme": true,
+    "musicien": false,
+    "couleur": "#A87438"
+}, {
+    "id": 4,
+    "pseudo": "gustina",
+    "actif": true,
+    "homme": false,
+    "musicien": true,
+    "couleur": "#9E5BC8"
+}, {
+    "id": 5,
+    "pseudo": "hopopop",
+    "actif": true,
+    "homme": true,
+    "musicien": false,
+    "couleur": "#6ACDCD"
+}, {
+    "id": 6,
+    "pseudo": "josiane",
+    "actif": true,
+    "homme": false,
+    "musicien": true,
+    "couleur": "#A44237"
+}, {
+    "id": 7,
+    "pseudo": "knup",
+    "actif": true,
+    "homme": true,
+    "musicien": true,
+    "couleur": "#37862D"
+}, {
+    "id": 8,
+    "pseudo": "kristin",
+    "actif": true,
+    "homme": false,
+    "musicien": true,
+    "couleur": "#C6C95E"
+}, {
+    "id": 9,
+    "pseudo": "motsa",
+    "actif": true,
+    "homme": true,
+    "musicien": false,
+    "couleur": "#304491"
+}, {
+    "id": 10,
+    "pseudo": "patrick",
+    "actif": true,
+    "homme": true,
+    "musicien": true,
+    "couleur": "#C4804F"
+}, {
+    "id": 11,
+    "pseudo": "petunia",
+    "actif": true,
+    "homme": false,
+    "musicien": false,
+    "couleur": "#6ECF86"
+}, {
+    "id": 12,
+    "pseudo": "pirgo",
+    "actif": true,
+    "homme": true,
+    "musicien": false,
+    "couleur": "#143D3C"
+}, {
+    "id": 13,
+    "pseudo": "popiette",
+    "actif": true,
+    "homme": false,
+    "musicien": true,
+    "couleur": "#501B3B"
+}, {
+    "id": 14,
+    "pseudo": "pyrus",
+    "actif": true,
+    "homme": true,
+    "musicien": false,
+    "couleur": "#8C8E2F"
+}, {
+    "id": 15,
+    "pseudo": "zoe",
+    "actif": true,
+    "homme": false,
+    "musicien": true,
+    "couleur": "#D79288"
+}]
